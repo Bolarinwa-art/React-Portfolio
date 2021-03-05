@@ -8,4 +8,4 @@ class Background extends React.Component{
         )
     }
 }
-export default Background
+export default Background;
