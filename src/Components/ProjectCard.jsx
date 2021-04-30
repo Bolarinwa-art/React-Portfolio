@@ -12,7 +12,7 @@ class ProjectCard extends React.Component {
                             <Card.Text>{this.props.bodyText} </Card.Text>
                         </Card.Body>
                         <Card.Body>
-                            <Card.Link href={this.props.projectLink}>{this.props.linkText}</Card.Link>
+                            <Card.Link href={this.props.projectLink} target="_blank">{this.props.linkText}</Card.Link>
                         </Card.Body>
                 </Card>
             </div>
