@@ -1,55 +1,49 @@
 import React from "react"
-import {Card, Row, Col} from "react-bootstrap";
+import {Row, Col} from "react-bootstrap";
+import ProjectCard from "./ProjectCard";
+import rfidCardImage from  "../Images/rfidImage.jpg";
+import loginpageCardImage from"../Images/loginpageImage.jpg";
 
 class Project extends React.Component {
     render() {
+        const rfidTitle="RFID ATTENDANCE SYSTEM PROJECT";
+        const rfidBodyText="Maintaining attendance is compulsory and important "+
+        "in all the institutions for knowing the performance of students. "+
+        "My project allows schools to have their own attendance system that is "+
+        "suitable for a school environment.";
+        const rfidLinkText="See Documentation";
+        const rfidProjectLink="#";   
+        
+        const loginpageTitle="LOGIN PAGE USING HTML, CSS AND JAVASCRIPT";
+        const loginpageBodyText="login page is a web page or an entry page to a "+
+        "website that requires user identification and authentication, "+
+        "regularly performed by entering a username and password combination.";
+        const loginpageLinkText="see Code";
+        const loginpageProjectLink="#";
         return (
             <div className="project-container">
                 <Row>
                     <Col>
-                        <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
-                            </Card.Body>
-
-                            <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                            
-                            </Card.Body>
-                        </Card>
-
-            
+                        <ProjectCard
+                            title={rfidTitle}
+                            cardImage={rfidCardImage}
+                            bodyText={rfidBodyText}
+                            projectLink={rfidProjectLink}
+                            linkText={rfidLinkText}
+                        />
                     </Col>
                     <Col>
-                    <Card style={{ width: '18rem' }}>
-                            <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
-                            <Card.Body>
-                                <Card.Title>Card Title</Card.Title>
-                                <Card.Text>
-                                Some quick example text to build on the card title and make up the bulk of
-                                the card's content.
-                                </Card.Text>
-                            </Card.Body>
-
-                            <Card.Body>
-                                <Card.Link href="#">Card Link</Card.Link>
-                            
-                            </Card.Body>
-                        </Card>
+                        <ProjectCard 
+                            title={loginpageTitle}
+                            cardImage={loginpageCardImage}
+                            bodyText={loginpageBodyText}
+                            projectLink={loginpageProjectLink}
+                            linkText={loginpageLinkText}
+                        /> 
                     </Col>
                 </Row>
-
-
             </div>
-        
-
-        )
+        );
     }
 }
-
 export default Project;
