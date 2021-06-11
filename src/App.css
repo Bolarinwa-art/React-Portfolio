@@ -1,1 +1,9 @@
-.background {padding-left: 40px; padding-right: 40px;}
+.background {
+    padding: 0 40px 0 40px; 
+    margin: 0 107px 0 107px;
+} 
+
+.MainPage {
+    padding: 128px 128px 96px 128px;
+}
+

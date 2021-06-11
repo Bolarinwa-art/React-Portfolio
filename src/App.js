@@ -10,13 +10,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Background>
-        <Header/>
-        <MainPage>
-          <Intro/>
+      <Background className="background-component">
+        <Header className="header-component" />
+        <MainPage className="mainpage-component">
+          <Intro className="intro-component" />
           <hr/>
-          <Project />
-          <Footer />
+          <Project className="project-component"/>
+          <Footer ClassName="footer-component" />
         </MainPage>
       </Background>
     </div>
