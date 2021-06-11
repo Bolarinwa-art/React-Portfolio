@@ -2,8 +2,12 @@
     padding: 0 40px 0 40px; 
     margin: 0 107px 0 107px;
 } 
+.jumbotron-header-container{
+    padding: 128px 64px 96px 64px; 
+
+}
 
 .MainPage {
-    padding: 128px 128px 96px 128px;
+    padding: 0 128px 96px 128px;
 }
 
