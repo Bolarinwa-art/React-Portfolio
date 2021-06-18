@@ -2,12 +2,23 @@
     padding: 0 40px 0 40px; 
     margin: 0 107px 0 107px;
 } 
-.jumbotron-header-container{
+.jumbotron-header-container{ 
     padding: 128px 64px 96px 64px; 
-
+    text-align: center;
+        
+}
+.jumbotron-header-container .jumbotron-header {
+    margin-bottom: 32px;
+}
+.jumbotron-header-container p {
+    margin-bottom: 32px;
 }
 
 .MainPage {
     padding: 0 128px 96px 128px;
 }
-
+.jumbotron-header-container Button {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
