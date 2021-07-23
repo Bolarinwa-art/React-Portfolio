@@ -22,3 +22,14 @@
     width: 60px;
     height: 60px;
 }
+.Intro .p {text-align: center;
+}
+
+.project-Card .card {
+    width: 100% !important;
+    height: 100% !important;
+}
+.project-Card {
+    height: 100%;
+    text-align: center;
+}

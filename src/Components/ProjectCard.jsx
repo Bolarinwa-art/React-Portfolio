@@ -1,6 +1,7 @@
 import React from "react"
 import {Card} from "react-bootstrap";
 
+
 class ProjectCard extends React.Component {
     render() {
         return(
@@ -12,7 +13,7 @@ class ProjectCard extends React.Component {
                             <Card.Text>{this.props.bodyText} </Card.Text>
                         </Card.Body>
                         <Card.Body>
-                            <Card.Link href={this.props.projectLink} target="_blank">{this.props.linkText}</Card.Link>
+                            <Card.Link class="btn btn-outline-dark" href={this.props.projectLink} target="_blank">{this.props.linkText}</Card.Link>
                         </Card.Body>
                 </Card>
             </div>

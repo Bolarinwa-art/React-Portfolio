@@ -22,8 +22,8 @@ class Project extends React.Component {
         const loginpageProjectLink="https://github.com/Bolarinwa-art/Login-page";
         return (
             <div className="project-container">
-                <Row>
-                    <Col>
+                <Row className="project-row">
+                    <Col className="project-col">
                         <ProjectCard
                             title={rfidTitle}
                             cardImage={rfidCardImage}
@@ -32,7 +32,7 @@ class Project extends React.Component {
                             linkText={rfidLinkText}
                         />
                     </Col>
-                    <Col>
+                    <Col className="project-col">
                         <ProjectCard 
                             title={loginpageTitle}
                             cardImage={loginpageCardImage}
