@@ -9,37 +9,36 @@ class Footer extends React.Component{
             <div className="footer">
                 <Row className="footer-row">
                     <Col className="footer-col-field">
-                        EMAIL 
+                        <strong>EMAIL</strong>
                     </Col>
                     <Col className="footer-col-val">
-                        Rabiubolarinwa@gmail.com
+                        <a href="mailto:Rabiubolarinwa@gmail.com">
+                            Rabiubolarinwa@gmail.com 
+                        </a>
                     </Col>
                 </Row>
-                <hl />
+                <hr />
                 <Row className="footer-row">
                     <Col className="footer-col-field">
-                        PHONE 
+                        <strong>PHONE</strong>
                     </Col>
                     <Col className="footer-col-val">
                         07402579757
                     </Col>
                 </Row>
-                <hl />
+                <hr />
                 <Row className="footer-row">
                     <Col className="footer-col-field">
-                        SOCIAL
+                        <strong>SOCIAL</strong>
                     </Col>
                     <Col className="footer-col-val">
-                        <a href="https://github.com/Bolarinwa-art">
+                        <a className="socialmedia-image" href="https://github.com/Bolarinwa-art">
                             <img className="github-icon" src={githubimage} alt="Github Icon" /> 
                         </a>
-                        <a href="https://www.linkedin.com/in/bolarinwa-rabiu-3a734b1aa/">
+                        <a  className="socialmedia-image" href="https://www.linkedin.com/in/bolarinwa-rabiu-3a734b1aa/">
                             <img className="linkedin-icon" src={linkedinimage} alt="Linkedin Icon" /> 
                         </a>
                     </Col>
-                </Row>
-                <Row>
-                <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
                 </Row>
             </div>
         );

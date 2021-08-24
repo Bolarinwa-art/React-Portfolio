@@ -1,1 +1,125 @@
-.background {padding-left: 40px; padding-right: 40px;}
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Staatliches&display=swap');
+
+.background {
+    padding: 0 40px 0 40px; 
+    margin: 0 107px 0 107px;
+    
+} 
+.jumbotron-header-container{ 
+    padding: 128px 64px 96px 64px; 
+    text-align: center;
+    background-color: unset;
+    color:#ffffff;
+        
+}
+.jumbotron-header-container .jumbotron-header {
+    margin-bottom: 32px;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    line-height: 1;
+    font-size: 5rem;
+}
+.jumbotron-header-container p {
+    margin-bottom: 32px;
+    font-size: 1.25rem;
+    font-style: italic;
+    margin-top: -0.25rem;
+    text-align: center;
+
+}
+.nav {
+    background: rgba(255, 255, 255, 0.175);
+    height: 4rem;
+    border-bottom: 0;
+}
+.nav-item {
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    height: 100%;
+    background-color:#ffffff; 
+    display: flex;
+    align-items: center;
+}
+.nav-item a {
+    color:black;
+}
+
+.MainPage {
+    padding: 128px 128px 96px 128px;
+    background-color: #ffffff;
+
+}
+.jumbotron-header-container Button {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    color:#ffffff;
+    border-color:#ffffff
+}
+
+.Intro {text-align: center;
+    padding-bottom: 32px;
+}
+.Intro h1 {
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    margin: 0 0 32px 0;
+
+}
+.Intro p { 
+padding-bottom: 32px;
+}
+.project-Card .card {
+    width: 100% !important;
+    height: 100% !important;
+}
+.project-Card {
+    height: 100%;
+    text-align: center;
+}
+.footer {
+    background-color:#e9ecef;
+    text-align: left;
+}
+.footer-row {
+    padding: 4rem 4rem 3rem 4rem ;
+}
+.footer-col-field{
+    max-width: 100px !important;
+    padding-right: 4rem;
+    text-align: left;
+}
+.github-icon{
+    width:20px;
+    height: 20px;
+}
+.linkedin-icon{
+    width:20px;
+    height:20px;
+}
+.footer hr {
+    border-width: 2px;
+    width: 100%;
+}
+.socialmedia-image {
+    padding-right: 20px;
+}
+.App {
+    background-color: #212931;
+    background-image: 
+        url('./Images/bg.jpeg'), 
+        linear-gradient(
+            0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+         url('./Images/overlay.png');
+    }
+    h1 {
+        font-family: 'Staatliches', cursive !important;
+    }
+
+    p {
+        font-family: 'Abel', sans-serif;
+        font-size: 1.2rem;
+        line-height: 35px;
+    }

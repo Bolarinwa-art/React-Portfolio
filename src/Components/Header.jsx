@@ -8,7 +8,9 @@ class Header extends React.Component {
                 <h1 className="jumbotron-header"> My Portfolio</h1>
                 <p>A showcase of my project, Passion and abilities</p>
                 <div className="headerbutton-container">
-                    <Button variant="primary"> Scroll Down</Button>
+                    <Button size="lg" variant="outline-dark">
+                        &#8595;
+                    </Button>
                 </div>
             </Jumbotron>
         )
